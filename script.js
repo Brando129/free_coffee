@@ -3,8 +3,8 @@ In total, I get 7 cups. Create a function that takes n cups
 bought and return as an integer the total number of cups I would get. */
 
 function freeCoffee(cups){
-    freeCups = cups / 6
-    totalCoffee = cups + freeCups
+    var freeCups = cups / 6
+    var totalCoffee = cups + freeCups
     return totalCoffee
 }
 
